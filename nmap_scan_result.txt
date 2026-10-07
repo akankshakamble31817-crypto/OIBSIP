@@ -1,0 +1,8 @@
+OS DETECTION: sudo nmap -O 127.0.0.1
+Result: No exact OS matches for host.
+PORT 631/tcp - IPP - CUPS 2.4
+PORT 631 is commonly used by CUPS for printing services.
+Security: Unnecessary servicescan increase the attack surface and should be restricted or disabled when not required.
+Result: No exact OS matches for host.
+PORT 631/tcp - IPP - CUPS 2.4
+Purpose: Used by CUPS for printing services.

@@ -1,0 +1,9 @@
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-10-06 14:03 +0000
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000024s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT    STATE SERVICE VERSION
+631/tcp open  ipp     CUPS 2.4
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6.22 seconds
