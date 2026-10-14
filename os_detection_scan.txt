@@ -1,25 +1,25 @@
-Starting Nmap 7.98 ( https://nmap.org ) at 2026-10-06 15:25 +0000
+# Nmap 7.98 scan initiated Wed Oct 14 19:43:38 2026 as: nmap -O -oN os_detection_scan.txt 127.0.0.1
 Nmap scan report for localhost (127.0.0.1)
-Host is up (0.000055s latency).
+Host is up (0.00021s latency).
 Not shown: 999 closed tcp ports (reset)
 PORT    STATE SERVICE
 631/tcp open  ipp
 No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
 TCP/IP fingerprint:
-OS:SCAN(V=7.98%E=4%D=10/6%OT=631%CT=1%CU=31192%PV=Y%DS=0%DC=L%G=Y%TM=6AC513
-OS:00%P=x86_64-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=104%TI=Z%CI=Z%TS=21)SEQ(SP
-OS:=103%GCD=1%ISR=10B%TI=Z%CI=Z%II=I%TS=21)SEQ(SP=103%GCD=1%ISR=10F%TI=Z%CI
-OS:=Z%TS=21)SEQ(SP=105%GCD=1%ISR=10C%TI=Z%CI=Z%II=I%TS=21)SEQ(SP=107%GCD=1%
-OS:ISR=10D%TI=Z%CI=Z%TS=22)OPS(O1=MFFD7ST11NWA%O2=MFFD7ST11NWA%O3=MFFD7NNT1
-OS:1NWA%O4=MFFD7ST11NWA%O5=MFFD7ST11NWA%O6=MFFD7ST11)WIN(W1=FFCB%W2=FFCB%W3
-OS:=FFCB%W4=FFCB%W5=FFCB%W6=FFCB)ECN(R=Y%DF=Y%T=40%W=FFD7%O=MFFD7NNSNWA%CC=
-OS:Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=
-OS:40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0
-OS:%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z
-OS:%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G
-OS:%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+OS:SCAN(V=7.98%E=4%D=10/14%OT=631%CT=1%CU=38941%PV=Y%DS=0%DC=L%G=Y%TM=6ACFD
+OS:B75%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=108%TI=Z%CI=Z%TS=21)SEQ(S
+OS:P=105%GCD=1%ISR=10D%TI=Z%CI=Z%TS=22)SEQ(SP=109%GCD=1%ISR=10A%TI=Z%CI=Z%I
+OS:I=I%TS=22)SEQ(SP=F9%GCD=1%ISR=10A%TI=Z%CI=Z%TS=22)SEQ(SP=F9%GCD=1%ISR=10
+OS:F%TI=Z%CI=Z%TS=21)OPS(O1=MFFD7ST11NWA%O2=MFFD7ST11NWA%O3=MFFD7NNT11NWA%O
+OS:4=MFFD7ST11NWA%O5=MFFD7ST11NWA%O6=MFFD7ST11)WIN(W1=FFCB%W2=FFCB%W3=FFCB%
+OS:W4=FFCB%W5=FFCB%W6=FFCB)ECN(R=Y%DF=Y%T=40%W=FFD7%O=MFFD7NNSNWA%CC=Y%Q=)T
+OS:1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0
+OS:%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6
+OS:(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%
+OS:F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=
+OS:G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
 
 Network Distance: 0 hops
 
 OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-Nmap done: 1 IP address (1 host up) scanned in 11.37 seconds
+# Nmap done at Wed Oct 14 19:43:49 2026 -- 1 IP address (1 host up) scanned in 11.65 seconds
