@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE items [
+<!ELEMENT items (item*)>
+<!ATTLIST items burpVersion CDATA "">
+<!ATTLIST items exportTime CDATA "">
+<!ELEMENT item (time, url, host, port, protocol, method, path, extension, request, status, responselength, mimetype, response, comment)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT host (#PCDATA)>
+<!ATTLIST host ip CDATA "">
+<!ELEMENT port (#PCDATA)>
+<!ELEMENT protocol (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT path (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>
+<!ELEMENT request (#PCDATA)>
+<!ATTLIST request base64 (true|false) "false">
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT responselength (#PCDATA)>
+<!ELEMENT mimetype (#PCDATA)>
+<!ELEMENT response (#PCDATA)>
+<!ATTLIST response base64 (true|false) "false">
+<!ELEMENT comment (#PCDATA)>
+]>
+<items burpVersion="2026.10.1" exportTime="Wed Nov 11 03:14:48 UTC 2026">
+  <item>
+    <time>Wed Nov 11 03:11:32 UTC 2026</time>
+    <url><![CDATA[http://127.0.0.1:8080/vulnerabilities/sqli/?id=1&Submit=Submit]]></url>
+    <host ip="127.0.0.1">127.0.0.1</host>
+    <port>8080</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/vulnerabilities/sqli/?id=1&Submit=Submit]]></path>
+    <extension>null</extension>
+    <request base64="true"><![CDATA[R0VUIC92dWxuZXJhYmlsaXRpZXMvc3FsaS8/aWQ9MSZTdWJtaXQ9U3VibWl0IEhUVFAvMS4xDQpIb3N0OiAxMjcuMC4wLjE6ODA4MA0KVXNlci1BZ2VudDogTW96aWxsYS81LjAgKFgxMTsgVWJ1bnR1OyBMaW51eCB4ODZfNjQ7IHJ2OjE1NC4wKSBHZWNrby8yMDEwMDEwMSBGaXJlZm94LzE1NC4wDQpBY2NlcHQ6IHRleHQvaHRtbCxhcHBsaWNhdGlvbi94aHRtbCt4bWwsYXBwbGljYXRpb24veG1sO3E9MC45LCovKjtxPTAuOA0KQWNjZXB0LUxhbmd1YWdlOiBlbi1VUyxlbjtxPTAuOQ0KQWNjZXB0LUVuY29kaW5nOiBnemlwLCBkZWZsYXRlLCBicg0KUmVmZXJlcjogaHR0cDovLzEyNy4wLjAuMTo4MDgwL3Z1bG5lcmFiaWxpdGllcy9zcWxpLw0KQ29ubmVjdGlvbjoga2VlcC1hbGl2ZQ0KQ29va2llOiBzZWN1cml0eT1sb3c7IFBIUFNFU1NJRD1yNWQzNmZtN3Y1OTlwcTUwb3Fwdm1zcWdqNjsgc2VjdXJpdHk9bWVkaXVtDQpVcGdyYWRlLUluc2VjdXJlLVJlcXVlc3RzOiAxDQpTZWMtRmV0Y2gtRGVzdDogZG9jdW1lbnQNClNlYy1GZXRjaC1Nb2RlOiBuYXZpZ2F0ZQ0KU2VjLUZldGNoLVNpdGU6IHNhbWUtb3JpZ2luDQpTZWMtRmV0Y2gtVXNlcjogPzENClByaW9yaXR5OiB1PTAsIGkNCg0K]]></request>
+    <status></status>
+    <responselength></responselength>
+    <mimetype></mimetype>
+    <response base64="true"></response>
+    <comment></comment>
+  </item>
+</items>

